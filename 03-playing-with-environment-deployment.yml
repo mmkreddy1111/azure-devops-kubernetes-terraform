@@ -22,7 +22,6 @@ stages:
   - job: BuildJob
     steps:
     - bash: echo "Do the build"
-
 - stage: DevDeploy
   jobs:
   - deployment: DevDeployJob
@@ -32,7 +31,6 @@ stages:
         deploy:
           steps:
           - script: echo deploy to Dev
-
 - stage: QADeploy
   jobs:
   - deployment: QADeployJob
@@ -42,7 +40,6 @@ stages:
         deploy:
           steps:
           - script: echo deploy to QA
-
 - stage: ProdDeploy
   jobs:
   - deployment: ProdDeployJob
