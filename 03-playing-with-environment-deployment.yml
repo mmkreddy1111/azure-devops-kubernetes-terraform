@@ -12,7 +12,6 @@ trigger:
 #       operatingSystem: 'ubuntu-latest'
 #     mac:
 #       operatingSystem: 'macos-latest'
-
 pool:
   vmImage: 'ubuntu-latest'
 
