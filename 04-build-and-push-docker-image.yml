@@ -21,7 +21,7 @@ stages:
       vmImage: ubuntu-latest
     steps:
     - task: Docker@2
-      displayName: Build an image
+      displayName: Build an imageS
       inputs:
         containerRegistry: 'mmkreddy1111-docker-hub'
         repository: 'mmkreddy1111/currency-exchange-devops'
